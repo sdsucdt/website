@@ -1,0 +1,23 @@
+.officer-container {
+  border: 3px solid black;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.officer-container-cell {
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.officer-container-cell-image img {
+  border-radius: 50%;
+}
+
+.officer-container-cell-text {
+  padding-top: 10%;
+  padding-left: 10px;
+  vertical-align: center;
+}
