@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: 'https://www.yourdomain.tld',
-    title: 'SDSU CDT Website',
+    siteUrl: 'https://www.sdsucyberdefense.org',
+    title: 'SDSU Cyber Defense Team',
   },
   plugins: [
     'gatsby-plugin-styled-components',
