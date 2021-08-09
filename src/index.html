@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Thanks for looking at our code :) -->
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SDSU Cyber Defense Team</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/compiled.css" />
+  </head>
+
+  <body class="dark:bg-black bg-white dark:text-white text-black">
+    <!-- Navbar -->
+    <div
+      class="
+        flex
+        border-b-2 border-gray-200
+        justify-between
+        py-5
+        text-gray-600
+        dark:text-gray-200
+        align-middle
+      "
+    >
+      <a
+        class="
+          font-semibold
+          text-2xl
+          hover:border-0
+          text-transparent
+          bg-gradient-to-tr
+          from-sdsu-red
+          via-black
+          to-sdsu-red
+          bg-clip-text
+          dark:text-sdsu-red
+        "
+        href="index.html"
+        >SDSU Cyber Defense Team</a
+      >
+      <nav>
+        <ul class="flex">
+          <li>
+            <a
+              class="
+                hover:border-0 hover:text-sdsu-red
+                mr-5
+                text-lg
+                font-medium
+              "
+              href="https://drive.google.com/drive/folders/1DQmNj-NvNCACusLrem-aWSe90zvrmrPW?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+              >Documents</a
+            >
+          </li>
+          <li>
+            <a
+              class="
+                hover:border-0 hover:text-sdsu-red
+                mr-5
+                text-lg
+                font-medium
+              "
+              href="https://github.com/sdsucdt/writeups"
+              target="_blank"
+              rel="noreferrer"
+              >Writeups</a
+            >
+          </li>
+          <li>
+            <a
+              class="hover:border-0 hover:text-sdsu-red font-medium"
+              href="https://github.com/sdsucdt"
+              target="_blank"
+              rel="noreferrer"
+              ><i class="fab fa-github fa-2x"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Info -->
+    <div class="pt-10">
+      <!-- <img class="m-auto" src="images/logo.png" height="600" width="600" /> -->
+      <h1 class="text-left text-7xl font-bold">
+        <a
+          class="hover:border-0 hover:text-sdsu-red"
+          href="https://www.sdsu.edu/"
+          target="_blank"
+          rel="noreferrer"
+          >San Diego State University</a
+        >'s<br /><span class="text-sdsu-red">Premier</span>
+        Cyber Security Club
+      </h1>
+      <div class="bg-gradient-to-r from-sdsu-red to-black"></div>
+      <div
+        class="
+          text-left text-4xl text-gray-600
+          dark:text-gray-300
+          font-medium
+          pt-5
+        "
+      >
+        <span class="text-gray-800 dark:text-gray-200">Fridays</span> from
+        <a
+          class="text-gray-800 dark:text-gray-200"
+          href="https://www.timeanddate.com/worldclock/converter.html?iso=20210911T000000&p1=770&p2=75&p3=64&p4=179"
+          target="_blank"
+          rel="noreferrer"
+          >5:00 PM</a
+        >
+        to
+        <a
+          class="text-gray-800 dark:text-gray-200"
+          href="https://www.timeanddate.com/worldclock/converter.html?iso=20210911T030000&p1=770&p2=75&p3=64&p4=179"
+          target="_blank"
+          rel="noreferrer"
+          >8:00 PM</a
+        >
+        @ <span class="text-gray-800 dark:text-gray-200">{REDACTED}</span><br />
+        Join us! No experience needed, non-SDSU students welcome.
+      </div>
+      <div class="inline-block text-left pt-10">
+        <ul class="flex">
+          <li>
+            <a
+              class="
+                rounded-full
+                py-3
+                px-6
+                mx-2
+                bg-sdsu-red
+                hover:bg-sdsu-light-red
+                hover:text-white
+                text-white
+                font-semibold
+              "
+              href="https://discord.com/invite/ssVez2kUna"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i class="fab fa-discord"></i>
+              SDSU Cyber Defense Team</a
+            >
+          </li>
+          <li>
+            <a
+              class="
+                rounded-full
+                py-3
+                px-6
+                mx-2
+                bg-sdsu-red
+                hover:bg-sdsu-light-red
+                hover:text-white
+                text-white
+                font-semibold
+              "
+              href="mailto:board@sdsucyberdefense.org"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i class="fas fa-envelope"></i>
+              board@sdsucyberdefense.org</a
+            >
+          </li>
+          <li>
+            <a
+              class="
+                rounded-full
+                py-3
+                px-6
+                mx-2
+                bg-sdsu-red
+                hover:bg-sdsu-light-red
+                hover:text-white
+                text-white
+                font-semibold
+              "
+              href="https://www.instagram.com/sdsu_cdt"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i class="fab fa-instagram"></i>
+              @sdsu_cdt</a
+            >
+          </li>
+          <li>
+            <a
+              class="
+                rounded-full
+                py-3
+                px-6
+                mx-2
+                bg-sdsu-red
+                hover:bg-sdsu-light-red
+                hover:text-white
+                text-white
+                font-semibold
+              "
+              href="https://github.com/sdsucdt"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i class="fab fa-github"></i>
+              sdsucdt</a
+            >
+          </li>
+          <li>
+            <a
+              class="
+                rounded-full
+                py-3
+                px-6
+                mx-2
+                bg-sdsu-red
+                hover:bg-sdsu-light-red
+                hover:text-white
+                text-white
+                font-semibold
+              "
+              href="https://www.linkedin.com/company/cyber-defense-team-sdsu"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i class="fab fa-linkedin-in"></i>
+              Cyber Defense Team | SDSU</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Details -->
+    <div class="pt-20">
+      <h1 class="text-5xl font-bold">Club Details</h1>
+      <div class="grid grid-cols-4 pt-10 text-gray-700 dark:text-gray-200">
+        <div class="rounded overflow-hidden shadow-lg mx-5">
+          <img class="w-full" src="images/details/labs.jpg" alt="Labs" />
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Labs</div>
+            <p class="text-base">
+              We develop, deploy, and instruct about our own labs for each team
+              meeting. We focus on having fun, feeling like a hacker, and
+              imparting industry-ready skills. Our exercises utilize both attack
+              and defense perspectives, along with Capture the Flag exercises.
+            </p>
+          </div>
+        </div>
+        <div class="rounded overflow-hidden shadow-lg mx-5">
+          <img
+            class="w-full"
+            src="images/details/competitions.jpg"
+            alt="Competitions"
+          />
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Competitions</div>
+            <p class="text-base">
+              We compete in a number of hacking competitions, such as CCDC, NCL,
+              Penetration Testing Competition, Social Engineering Competition,
+              and more! Besides the cash prizes and job opportunities, hacking
+              competitions are fun and valuable learning experiences.
+            </p>
+          </div>
+        </div>
+        <div class="rounded overflow-hidden shadow-lg mx-5">
+          <img
+            class="w-full"
+            src="images/details/field_trips.jpg"
+            alt="Field Trips"
+          />
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Field Trips</div>
+            <p class="text-base">
+              We visit industry leaders in the San Diego area to receive tours
+              and guidance. Past trips have included AT&T and FBI Headquarters.
+              Stay tuned for more opportunities!
+            </p>
+          </div>
+        </div>
+        <div class="rounded overflow-hidden shadow-lg mx-5">
+          <img
+            class="w-full"
+            src="images/details/speakers.jpg"
+            alt="Speakers"
+          />
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Speakers</div>
+            <p class="text-base">
+              When the opportunity arises, cyber security industry leaders
+              enlighten our members with their invaluable wisdom. Whether it’s
+              about job interviews, resumes, or what they do at their job, their
+              knowledge runs deep!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Executive Board -->
+    <div class="pt-20">
+      <h1 class="text-5xl font-bold">Executive Board</h1>
+      <div class="grid grid-cols-2 grid-rows-3 font-semibold text-2xl">
+        <div class="flex p-10 items-center">
+          <img
+            class="rounded-full h-52 w-52"
+            src="images/board/nate.jpeg"
+            alt="Nathaniel Shalev"
+          />
+          <p class="px-5">
+            Nathaniel Shalev<br />President<br />
+            <a
+              href="https://www.linkedin.com/in/nathaniel-shalev/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </p>
+        </div>
+        <div class="flex p-10 items-center">
+          <img
+            class="rounded-full h-52 w-52"
+            src="images/board/chase.jpeg"
+            alt="Chase Anzalone"
+          />
+          <p class="px-5">
+            Chase Anzalone<br />Vice President<br />
+            <a
+              href="https://www.linkedin.com/in/anzalone-chase/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </p>
+        </div>
+        <div class="flex p-10 items-center">
+          <img
+            class="rounded-full h-52 w-52"
+            src="images/board/jordan.jpeg"
+            alt="Jordan Shands-Sparks"
+          />
+          <p class="px-5">
+            Jordan Shands-Sparks<br />Treasurer<br />
+            <a
+              href="https://www.linkedin.com/in/jordan-shands-sparks-211572207/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </p>
+        </div>
+        <div class="flex p-10 items-center">
+          <img
+            class="rounded-full h-52 w-52"
+            src="images/board/ramon.jpeg"
+            alt="Ramon De Dios"
+          />
+          <p class="px-5">
+            Ramon De Dios<br />System Administrator<br />
+            <a
+              href="https://www.linkedin.com/in/ramon-de-dios-a7b8121ba/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </p>
+        </div>
+        <div class="flex p-10 items-center">
+          <img
+            class="rounded-full h-52 w-52"
+            src="images/board/alex.jpeg"
+            alt="Alexandra Lim"
+          />
+          <p class="px-5">
+            Alexandra Lim<br />Secretary<br />
+            <a
+              href="https://www.linkedin.com/in/alexandra-lim-a8b65a1b4/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </p>
+        </div>
+        <div class="flex p-10 items-center">
+          <img
+            class="rounded-full h-52 w-52"
+            src="images/board/brandon.jpeg"
+            alt="Brandon Nguyen"
+          />
+          <p class="px-5">
+            Brandon Nguyen<br />Jobs and Competition Liaison<br />
+            <a
+              href="https://www.linkedin.com/in/brandonnguyen02/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Alumni -->
+    <div class="pt-20 font-bold">
+      <h1 class="text-5xl font-bold pb-10">Hear From Our Alumni</h1>
+      <div class="max-w-md rounded overflow-hidden shadow-lg">
+        <div class="px-8 py-4">
+          <p class="text-gray-700 dark:text-gray-200 text-base">
+            I gained leadership experience, background with cybersecurity tools
+            and new friends.
+          </p>
+        </div>
+        <div
+          class="
+            font-bold
+            text-xl text-white
+            bg-gradient-to-r
+            px-14
+            py-3
+            from-sdsu-red
+            to-black
+          "
+        >
+          Aidan Brown<br /><span class="text-gray-50">SDSU '21</span>
+        </div>
+      </div>
+      <div class="max-w-md rounded overflow-hidden shadow-lg">
+        <div class="px-8 py-4">
+          <p class="text-gray-700 dark:text-gray-200 text-base">
+            I’ve learned so much and made connections with folks as a member, an
+            officer and an alum. In other words, I gained an amazing community.
+          </p>
+        </div>
+        <div
+          class="
+            font-bold
+            text-xl text-white
+            bg-gradient-to-r
+            px-14
+            py-3
+            from-sdsu-red
+            to-black
+          "
+        >
+          Redgy Canos<br /><span class="text-gray-50">SDSU '18</span><br /><span
+            class="test-gray-50"
+            >Security Software Engineer at Viasat</span
+          >
+        </div>
+      </div>
+      <div class="max-w-md rounded overflow-hidden shadow-lg">
+        <div class="px-8 py-4">
+          <p class="text-gray-700 dark:text-gray-200 text-base">
+            I obtained experience in learning a lot of new things, but most
+            importantly, learning how to lead a team in accomplishing and
+            delegating tasks to other groups.
+          </p>
+        </div>
+        <div
+          class="
+            font-bold
+            text-xl text-white
+            bg-gradient-to-r
+            px-14
+            py-3
+            from-sdsu-red
+            to-black
+          "
+        >
+          Mohamed Mohamed<br /><span class="text-gray-50">SDSU '21</span
+          ><br /><span class="test-gray-50"
+            >IT Software Engineer at Viasat</span
+          >
+        </div>
+      </div>
+      <div class="max-w-md rounded overflow-hidden shadow-lg">
+        <div class="px-8 py-4">
+          <p class="text-gray-700 dark:text-gray-200 text-base">
+            I picked up the ability to network, appreciation for security
+            principles, system administration basics, and the ability to work in
+            groups.
+          </p>
+        </div>
+        <div
+          class="
+            font-bold
+            text-xl text-white
+            bg-gradient-to-r
+            px-14
+            py-3
+            from-sdsu-red
+            to-black
+          "
+        >
+          Antigone Brickman<br /><span class="text-gray-50">SDSU '19</span
+          ><br /><span class="test-gray-50"
+            >Programmer Analyst at Southwestern Community College</span
+          >
+        </div>
+      </div>
+      <div class="max-w-md rounded overflow-hidden shadow-lg">
+        <div class="px-8 py-4">
+          <p class="text-gray-700 dark:text-gray-200 text-base">
+            I attained the skills to get a Cyber Security job out of University.
+          </p>
+        </div>
+        <div
+          class="
+            font-bold
+            text-xl text-white
+            bg-gradient-to-r
+            px-14
+            py-3
+            from-sdsu-red
+            to-black
+          "
+        >
+          Thomas Hinton<br /><span class="text-gray-50">SDSU '21</span
+          ><br /><span class="test-gray-50"
+            >Cyber Security Engineer at Viasat</span
+          >
+        </div>
+      </div>
+      <div class="max-w-md rounded overflow-hidden shadow-lg">
+        <div class="px-8 py-4">
+          <p class="text-gray-700 dark:text-gray-200 text-base">
+            I gained Linux knowledge as well as insights of web application
+            attacking methods.
+          </p>
+        </div>
+        <div
+          class="
+            font-bold
+            text-xl text-white
+            bg-gradient-to-r
+            px-14
+            py-3
+            from-sdsu-red
+            to-black
+          "
+        >
+          Greg Dresing<br /><span class="text-gray-50">SDSU '21</span
+          ><br /><span class="test-gray-50"
+            >Application Security Intern at Palo Alto Networks</span
+          >
+        </div>
+      </div>
+      <div class="max-w-md rounded overflow-hidden shadow-lg">
+        <div class="px-8 py-4">
+          <p class="text-gray-700 dark:text-gray-200 text-base">
+            I received the exposure and experience in the cybersecurity field,
+            as well as a connection network to aid in finding jobs.
+          </p>
+        </div>
+        <div
+          class="
+            font-bold
+            text-xl text-white
+            bg-gradient-to-r
+            px-14
+            py-3
+            from-sdsu-red
+            to-black
+          "
+        >
+          John Robinson<br /><span class="text-gray-50">SDSU '21</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

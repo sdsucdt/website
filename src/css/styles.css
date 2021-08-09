@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  a {
+    @apply hover:text-sdsu-red;
+  }
+
+  div {
+    @apply mx-auto max-w-6xl text-left
+  }
+
+  ul {
+    @apply list-none
+  }
+}

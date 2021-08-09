@@ -1,51 +1,17 @@
 {
   "name": "sdsu-cdt-website",
-  "version": "1.0.0",
-  "private": true,
-  "description": "SDSU CDT Website",
-  "author": "Brandon Nguyen",
-  "keywords": [
-    "gatsby"
-  ],
+  "author": "SDSU Cyber Defense Team Executive Board",
+  "description": "SDSU Cyber Defense Team Website",
+  "license": "MIT",
   "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
-  },
-  "dependencies": {
-    "babel-plugin-styled-components": "^1.13.2",
-    "gatsby": "^3.10.2",
-    "gatsby-plugin-gatsby-cloud": "^2.10.1",
-    "gatsby-plugin-image": "^1.10.1",
-    "gatsby-plugin-sharp": "^3.10.2",
-    "gatsby-plugin-styled-components": "^4.10.0",
-    "gatsby-plugin-typescript": "^3.11.0",
-    "gatsby-source-filesystem": "^3.10.0",
-    "gatsby-transformer-sharp": "^3.10.0",
-    "prop-types": "^15.7.2",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-icons": "^4.2.0",
-    "styled-components": "^5.3.0"
+    "build": "postcss ./src/css/styles.css -o ./src/css/compiled.css",
+    "dev": "TAILWIND_MODE=watch postcss ./src/css/styles.css -o ./src/css/compiled.css --watch"
   },
   "devDependencies": {
-    "@types/node": "^16.4.13",
-    "@types/react": "^17.0.16",
-    "@types/react-dom": "^17.0.9",
-    "@types/styled-components": "^5.1.12",
-    "@typescript-eslint/eslint-plugin": "^4.29.0",
-    "@typescript-eslint/parser": "^4.29.0",
-    "eslint": "^7.32.0",
-    "eslint-config-airbnb-typescript": "^12.3.1",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-eslint-comments": "^3.2.0",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-react": "^7.21.5",
-    "eslint-plugin-react-hooks": "^1.7.0",
+    "autoprefixer": "^10.3.1",
+    "postcss": "^8.3.6",
+    "postcss-cli": "^8.3.1",
     "prettier": "^2.3.2",
-    "typescript": "^4.3.5"
+    "tailwindcss": "^2.2.7"
   }
 }
