@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  a {
+    @apply hover:text-sdsu-red;
+  }
+
+  body {
+    @apply font-sans text-black bg-white dark:text-white dark:bg-black;
+  }
+
+  code {
+    @apply font-mono;
+  }
+
+  div {
+    @apply text-left;
+  }
+
+  ul {
+    @apply list-none;
+  }
+}

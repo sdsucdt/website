@@ -1,0 +1,59 @@
+{
+  "name": "sdsu-cyber-defense-team-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SDSU Cyber Defense Team Website",
+  "author": "SDSU Cyber Defense Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sdsucdt/website"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "lint": "eslint '**/*.{js,jsx,ts,tsx}' && prettier --check '**/*.{js,jsx,ts,tsx}' && stylelint '**/*.css'",
+    "serve": "gatsby serve",
+    "start": "gatsby develop"
+  },
+  "dependencies": {
+    "gatsby": "^3.11.1",
+    "gatsby-plugin-gatsby-cloud": "^2.11.0",
+    "gatsby-plugin-image": "^1.11.0",
+    "gatsby-plugin-sharp": "^3.11.0",
+    "gatsby-source-filesystem": "^3.11.0",
+    "gatsby-transformer-sharp": "^3.11.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-fast-marquee": "^1.2.1",
+    "react-icons": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.4.13",
+    "@types/react": "^17.0.17",
+    "@types/react-dom": "^17.0.9",
+    "@typescript-eslint/eslint-plugin": "^4.29.1",
+    "@typescript-eslint/parser": "^4.29.1",
+    "autoprefixer": "^10.3.1",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-webpack-plugin": "^3.0.1",
+    "gatsby-plugin-postcss": "^4.11.0",
+    "gatsby-plugin-typescript": "^3.11.0",
+    "postcss": "^8.3.6",
+    "prettier": "^2.3.2",
+    "stylelint": "^13.13.1",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-recommended": "^5.0.0",
+    "stylelint-order": "^4.1.0",
+    "tailwindcss": "^2.2.7",
+    "typescript": "^4.3.5"
+  }
+}
