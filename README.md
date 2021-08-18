@@ -8,7 +8,7 @@ After cloning the repository, run the following commands inside the project dire
 
 ```bash
 yarn install
-yarn dev
+yarn develop
 ```
 
 Now, navigate to [localhost:8000](localhost:8000) to access the website.

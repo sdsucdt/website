@@ -1,10 +1,9 @@
 import React from 'react';
 import CDTSection from '../utils/CDTSection';
-import { CardDetail } from '../utils/common';
-
+import { Card } from '../utils/common';
 
 type DetailsProps = {
-  cards: CardDetail[];
+  cards: Card[];
 };
 
 const Details = ({ cards }: DetailsProps): JSX.Element => {

@@ -1,4 +1,4 @@
-import React, {ReactNode} from 'react';
+import React, { ReactNode } from 'react';
 
 type CDTLinkProps = {
   className?: string;
@@ -6,11 +6,7 @@ type CDTLinkProps = {
   children: ReactNode;
 };
 
-const CDTLink = ({
-  className,
-  to,
-  children,
-}: CDTLinkProps): JSX.Element => {
+const CDTLink = ({ className, to, children }: CDTLinkProps): JSX.Element => {
   return (
     <a className={className || ''} href={to} target="_blank" rel="noreferrer">
       {children}
