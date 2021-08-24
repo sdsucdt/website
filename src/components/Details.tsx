@@ -9,7 +9,7 @@ type DetailsProps = {
 const Details = ({ cards }: DetailsProps): JSX.Element => {
   return (
     <CDTSection header="Club Details">
-      <div className="grid grid-cols-4 text-gray-700 dark:text-gray-200 mx-96">
+      <div className="grid grid-cols-4 text-gray-700 dark:text-gray-200 mx-96 md:mx-20">
         {cards.map((card) => {
           return (
             <div

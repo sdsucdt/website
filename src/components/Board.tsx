@@ -11,7 +11,7 @@ type BoardProps = {
 const Board = ({ boardMembers }: BoardProps): JSX.Element => {
   return (
     <CDTSection header="Executive Board">
-      <div className="ml-96 gap-y-10 grid grid-cols-2 grid-rows-3 font-semibold text-2xl">
+      <div className="md:mx-48 mx-96 gap-y-10 grid grid-cols-2 grid-rows-3 font-semibold text-2xl">
         {boardMembers.map((member) => {
           return <PersonHolder key={member.name} person={member} />;
         })}

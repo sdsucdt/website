@@ -1,9 +1,10 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
+import Marquee from 'react-fast-marquee';
 
 const Companies = (): JSX.Element => {
   return (
-    <div className="flex justify-center pt-44 gap-10 max-w-6xl mx-auto flex-wrap">
+    <Marquee className="pt-32" speed={45} gradient={false} direction="right">
       <StaticImage
         src="https://upload.wikimedia.org/wikipedia/commons/c/ce/DARPA_Logo_2010.png"
         alt="DARPA"
@@ -70,7 +71,7 @@ const Companies = (): JSX.Element => {
         placeholder="blurred"
         height={150}
       />
-    </div>
+    </Marquee>
   );
 };
 

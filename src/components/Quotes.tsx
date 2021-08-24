@@ -16,7 +16,7 @@ const Quotes = ({ quotes }: QuoteProps): JSX.Element => {
 
   return (
     <CDTSection header="Hear From Our Alumni">
-      <Marquee speed={45} pauseOnHover gradient={false}>
+      <Marquee speed={45} gradient={false}>
         {randomQuotes.map((quote) => (
           <QuoteBlock quote={quote} key={quote.name} />
         ))}

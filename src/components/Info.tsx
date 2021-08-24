@@ -46,27 +46,14 @@ const Info = ({ buttons }: InfoProps): JSX.Element => {
           pt-5
         "
       >
-        <span className="text-gray-800 dark:text-gray-200">Fridays</span> from
-        <CDTLink
-          className="text-gray-800 dark:text-gray-200"
-          to="https://www.timeanddate.com/worldclock/converter.html?iso=20210911T000000&p1=770&p2=75&p3=64&p4=179"
-        >
-          {' '}
-          5:00 PM
-        </CDTLink>{' '}
-        to
-        <CDTLink
-          className="text-gray-800 dark:text-gray-200"
-          to="https://www.timeanddate.com/worldclock/converter.html?iso=20210911T030000&p1=770&p2=75&p3=64&p4=179"
-        >
-          {' '}
-          8:00 PM
-        </CDTLink>{' '}
-        @ <span className="text-gray-800 dark:text-gray-200">REDACTED</span>
+        <span className="text-gray-800 dark:text-gray-200">Fridays</span> from{' '}
+        <span className="text-gray-800 dark:text-gray-200">5:00 PM</span> to{' '}
+        <span className="text-gray-800 dark:text-gray-200">8:00 PM</span> @{' '}
+        <span className="text-gray-800 dark:text-gray-200">REDACTED</span>
         <br />
         Join us! No experience needed, non-SDSU students welcome.
       </div>
-      <div className="flex flex-row flex-wrap gap-x-2 pt-10">
+      <div className="justify-center flex flex-row flex-wrap gap-x-2 gap-y-4 pt-10">
         {buttons.map((button) => {
           return (
             <CDTLink key={button.text} className={buttonStyle} to={button.link}>
