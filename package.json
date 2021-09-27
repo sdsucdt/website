@@ -17,13 +17,14 @@
     "clean": "gatsby clean",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "lint": "eslint '**/*.{js,jsx,ts,tsx}' && prettier --check '**/*.{js,jsx,ts,tsx}' && stylelint '**/*.css'",
+    "lint": "eslint '**/*.{js,jsx,ts,tsx}' --max-warnings 1 && prettier --check '**/*.{js,jsx,ts,tsx}' && stylelint '**/*.css'",
+    "prepare": "husky install",
     "serve": "gatsby serve",
     "start": "gatsby develop"
   },
   "dependencies": {
     "gatsby": "^3.11.1",
-    "gatsby-plugin-gatsby-cloud": "^2.11.0",
+    "gatsby-plugin-gatsby-cloud": "^3.0.0",
     "gatsby-plugin-image": "^1.11.0",
     "gatsby-plugin-sharp": "^3.11.0",
     "gatsby-source-filesystem": "^3.11.0",
@@ -34,6 +35,8 @@
     "react-icons": "^4.2.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0",
     "@types/node": "^16.4.13",
     "@types/react": "^17.0.17",
     "@types/react-dom": "^17.0.9",
@@ -47,6 +50,7 @@
     "eslint-webpack-plugin": "^3.0.1",
     "gatsby-plugin-postcss": "^4.11.0",
     "gatsby-plugin-typescript": "^3.11.0",
+    "husky": "^7.0.2",
     "postcss": "^8.3.6",
     "prettier": "^2.3.2",
     "stylelint": "^13.13.1",

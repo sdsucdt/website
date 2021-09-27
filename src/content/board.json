@@ -1,0 +1,51 @@
+{
+  "members": [
+    {
+      "name": "Nathaniel Shalev",
+      "job": "President",
+      "linkedin": "https://www.linkedin.com/in/nathaniel-shalev/",
+      "github": "https://github.com/KaiTheSpy",
+      "major": "Computer Science (B.S.)",
+      "image": "President.jpeg"
+    },
+    {
+      "name": "Chase Anzalone",
+      "job": "Vice President",
+      "linkedin": "https://www.linkedin.com/in/anzalone-chase/",
+      "github": "https://github.com/anzalonechase",
+      "major": "Computer Science (B.S.)",
+      "image": "VP.jpeg"
+    },
+    {
+      "name": "Jordan Shands-Sparks",
+      "job": "Treasurer",
+      "linkedin": "https://www.linkedin.com/in/jordan-shands-sparks-211572207/",
+      "major": "Computer Science (B.S.)",
+      "image": "Treasurer.jpeg"
+    },
+    {
+      "name": "Ramon De Dios",
+      "job": "System Administrator",
+      "linkedin": "https://www.linkedin.com/in/ramon-de-dios-a7b8121ba/",
+      "github": "https://github.com/Rvmxn",
+      "major": "Computer Science (B.S.)",
+      "image": "SysAdmin.jpeg"
+    },
+    {
+      "name": "Alexandra Lim",
+      "job": "Secretary",
+      "linkedin": "https://www.linkedin.com/in/alexandra-lim-a8b65a1b4/",
+      "github": "https://github.com/AlexandraLim",
+      "major": "Computer Science (B.S.)",
+      "image": "Secretary.jpeg"
+    },
+    {
+      "name": "Brandon Nguyen",
+      "job": "Jobs and Competition Liaison",
+      "linkedin": "https://www.linkedin.com/in/brandonnguyen02/",
+      "github": "https://github.com/gnuyent",
+      "major": "Computer Science (B.S.)",
+      "image": "JCL.jpeg"
+    }
+  ]
+}

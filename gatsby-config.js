@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
     siteUrl: 'https://www.sdsucyberdefense.org',
-    title: 'SDSU Cyber Defense Team Website',
+    title: 'SDSU Cyber Defense Team',
+    description: 'Landing page for SDSU Cyber Defense Team',
   },
   plugins: [
     'gatsby-plugin-gatsby-cloud',
@@ -16,6 +17,14 @@ module.exports = {
         path: './src/images/',
       },
       __key: 'images',
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'content',
+        path: './src/content',
+      },
+      __key: 'content',
     },
   ],
 };

@@ -1,7 +1,7 @@
 import React, { ReactNode } from 'react';
 
 type CDTSectionProps = {
-  header: string;
+  header?: string;
   children: ReactNode;
 };
 
@@ -11,7 +11,7 @@ export const CDTSection = ({
 }: CDTSectionProps): JSX.Element => {
   return (
     <div className="pt-20 mx-auto">
-      <h1 className="pb-10 text-5xl font-bold max-w-6xl mx-auto">{header}</h1>
+      {header && <h1 className="pb-10 text-5xl font-bold max-w-6xl mx-auto">{header}</h1>}
       {children}
     </div>
   );

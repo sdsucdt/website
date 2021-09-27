@@ -1,0 +1,44 @@
+{
+  "testimonials": [
+    {
+      "quote": "I gained leadership experience, background with cybersecurity tools and new friends.",
+      "name": "Aidan Brown",
+      "graduationYear": "21"
+    },
+    {
+      "quote": "I’ve learned so much and made connections with folks as a member, an officer and an alum. In other words, I gained an amazing community.",
+      "name": "Redgy Canos",
+      "graduationYear": "18",
+      "job": "Security Software Engineer @ Viasat"
+    },
+    {
+      "quote": "I obtained experience in learning a lot of new things, but most importantly, learning how to lead a team in accomplishing and delegating tasks to other groups.",
+      "name": "Mohamed Mohamed",
+      "graduationYear": "21",
+      "job": "IT Software Engineer @ Viasat"
+    },
+    {
+      "quote": "I picked up the ability to network, appreciation for security principles, system administration basics, and the ability to work in groups.",
+      "name": "Antigone Brickman",
+      "graduationYear": "19",
+      "job": "Programmer Analyst @ Southwestern Community College"
+    },
+    {
+      "quote": "I attained the skills to get a Cyber Security job out of University.",
+      "name": "Thomas Hinton",
+      "graduationYear": "21",
+      "job": "Cyber Security Engineer @ Viasat"
+    },
+    {
+      "quote": "I gained Linux knowledge as well as insights of web application attacking methods.",
+      "name": "Greg Dresing",
+      "graduationYear": "21",
+      "job": "Application Security Intern @ Palo Alto Networks"
+    },
+    {
+      "quote": "I received the exposure and experience in the cybersecurity field, as well as a connection network to aid in finding jobs.",
+      "name": "John Robinson",
+      "graduationYear": "21"
+    }
+  ]
+}

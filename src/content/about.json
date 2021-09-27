@@ -1,0 +1,20 @@
+{
+  "details": [
+    {
+      "header": "Participate In Labs",
+      "text": "We develop, deploy, and instruct about our own labs for each team meeting. We focus on having fun, feeling like a hacker, and imparting industry-ready skills. Our exercises utilize both attack and defense perspectives, along with Capture the Flag exercises."
+    },
+    {
+      "header": "Compete In Events",
+      "text": "We compete in a number of hacking competitions, such as CCDC, NCL, Penetration Testing Competition, Social Engineering Competition, and more! Besides the cash prizes and job opportunities, hacking competitions are fun and valuable learning experiences."
+    },
+    {
+      "header": "Go On Field Trips",
+      "text": "We visit industry leaders in the San Diego area to receive tours and guidance. Past trips have included AT&T and FBI Headquarters. Stay tuned for more opportunities!"
+    },
+    {
+      "header": "Learn From Industry Leaders",
+      "text": "When the opportunity arises, cyber security industry leaders enlighten our members with their invaluable wisdom. Whether it’s about job interviews, resumes, or what they do at their job, their knowledge runs deep!"
+    }
+  ]
+}
