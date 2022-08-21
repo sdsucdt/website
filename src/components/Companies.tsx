@@ -65,12 +65,12 @@ const Companies = (): JSX.Element => {
         placeholder="blurred"
         height={150}
       />
-      <StaticImage
+      {/*<StaticImage
         src="https://brand.sdsu.edu/primary-logos/SDSUprimary3Crgb.jpg"
         alt="San Diego State University"
         placeholder="blurred"
         height={150}
-      />
+      />*/}
     </Marquee>
   );
 };
